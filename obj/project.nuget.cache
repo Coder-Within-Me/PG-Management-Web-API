@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l4g1spWjDQ+S0ZLMpBU91lnH32BOP9JR6t4x2tl+OTpyhshsQU/KafNQb8U5Bt7TdBftV60Zimbl/+0ysYqtxA==",
+  "dgSpecHash": "h1s9T3AedbYCYpYKNsBTuVLhcyKhXwzAIsqCJMHjgpYzdzXGx82eghj8FBfP8s1YrJYSPk7MqTKUG6saysRK7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MayurGurav\\source\\repos\\PGManagementWebAPI\\PGManagement\\PGManagement.csproj",
+  "projectFilePath": "C:\\Users\\MayurGurav\\source\\repos\\Git Repo\\PG Management\\PG-Management\\PGManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MayurGurav\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\MayurGurav\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MayurGurav\\source\\repos\\PGManagementWebAPI\\PGManagement\\PGManagement.csproj": {}
+    "C:\\Users\\MayurGurav\\source\\repos\\Git Repo\\PG Management\\PG-Management\\PGManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MayurGurav\\source\\repos\\PGManagementWebAPI\\PGManagement\\PGManagement.csproj": {
+    "C:\\Users\\MayurGurav\\source\\repos\\Git Repo\\PG Management\\PG-Management\\PGManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MayurGurav\\source\\repos\\PGManagementWebAPI\\PGManagement\\PGManagement.csproj",
+        "projectUniqueName": "C:\\Users\\MayurGurav\\source\\repos\\Git Repo\\PG Management\\PG-Management\\PGManagement.csproj",
         "projectName": "PGManagement",
-        "projectPath": "C:\\Users\\MayurGurav\\source\\repos\\PGManagementWebAPI\\PGManagement\\PGManagement.csproj",
+        "projectPath": "C:\\Users\\MayurGurav\\source\\repos\\Git Repo\\PG Management\\PG-Management\\PGManagement.csproj",
         "packagesPath": "C:\\Users\\MayurGurav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MayurGurav\\source\\repos\\PGManagementWebAPI\\PGManagement\\obj\\",
+        "outputPath": "C:\\Users\\MayurGurav\\source\\repos\\Git Repo\\PG Management\\PG-Management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MayurGurav\\AppData\\Roaming\\NuGet\\NuGet.Config",
