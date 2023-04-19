@@ -55,30 +55,47 @@ namespace PGManagement.Respository
                     {
                         FormData.JoiningDate = Convert.ToString(DateTime.Now);
                     }
-                    GuestDetails guestDetails = new GuestDetails()
+                    //GuestDetails guestDetails = new GuestDetails()
+                    //{
+                    //    Name = FormData.Name,
+                    //    Address = FormData.Address,
+                    //    contact = FormData.Contact,
+                    //    AadharNumber = FormData.Aadhar,
+                    //    JoiningDate = Convert.ToDateTime(FormData.JoiningDate),
+                    //    IsActive = true
+                    //};
+                    //_DBContext.GuestDetails.Add(guestDetails);
+                    //await _DBContext.SaveChangesAsync();
+                    //var Id = _DBContext.GuestDetails.Where(x => x.AadharNumber == FormData.Aadhar).Select(x => x.GuestId).FirstOrDefault();
+                    //if (Id > 0)
+                    //{
+                    //    Guests guests = new Guests()
+                    //    {
+                    //        GuestId = Id,
+                    //        FloorId = Convert.ToInt32(FormData.Floor),
+                    //        RoomId = Convert.ToInt32(FormData.Room),
+                    //        BedId = Convert.ToInt32(FormData.Bed)
+                    //    };
+                    //    _DBContext.Guests.Add(guests);
+                    //    await _DBContext.SaveChangesAsync();
+                    //}
+                    Guests guests = new Guests()
                     {
-                        Name = FormData.Name,
-                        Address = FormData.Address,
-                        contact = FormData.Contact,
-                        AadharNumber = FormData.Aadhar,
-                        JoiningDate = Convert.ToDateTime(FormData.JoiningDate),
-                        IsActive = true
-                    };
-                    _DBContext.GuestDetails.Add(guestDetails);
-                    await _DBContext.SaveChangesAsync();
-                    var Id = _DBContext.GuestDetails.Where(x => x.AadharNumber == FormData.Aadhar).Select(x => x.GuestId).FirstOrDefault();
-                    if (Id > 0)
-                    {
-                        Guests guests = new Guests()
+                        FloorId = Convert.ToInt32(FormData.Floor),
+                        RoomId = Convert.ToInt32(FormData.Room),
+                        BedId = Convert.ToInt32(FormData.Bed),
+                        GuestDetails = new GuestDetails()
                         {
-                            GuestId = Id,
-                            FloorId = Convert.ToInt32(FormData.Floor),
-                            RoomId = Convert.ToInt32(FormData.Room),
-                            BedId = Convert.ToInt32(FormData.Bed)
-                        };
-                        _DBContext.Guests.Add(guests);
-                        await _DBContext.SaveChangesAsync();
-                    }
+                            Name = FormData.Name,
+                            Address = FormData.Address,
+                            contact = FormData.Contact,
+                            AadharNumber = FormData.Aadhar,
+                            JoiningDate = Convert.ToDateTime(FormData.JoiningDate),
+                            IsActive = true
+                        }
+                    };
+                    _DBContext.Guests.Add(guests);
+                    await _DBContext.SaveChangesAsync();
                     return "Guest Added Successfully.";
                 }
                 else
